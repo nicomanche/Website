@@ -1,11 +1,11 @@
 :root{
-    --Primary: #6100e9;
-    --Primary-light: #995DF0;
+    --Primary: #1E1E1E;
+    --Primary-light: #3d3d3d;
     --Primary-extra-light: #EFE4FC;
     --Primary-dark: #0800D1;
-    --Secondary: #D600E9;
+    --Secondary: #FFCC48;
     --Secondary-dark: #A200DB;
-    --Seconday-light: #E988F1;
+    --Seconday-light: #fad26e;
     --Secondary-extra-light: #FAE3FB;
     --Danger: #ee008d;
     --Danger-light: #F183BE;
@@ -20,7 +20,7 @@
     --Success-extra-light: #f2fee5;
     --Success-dark: #08b226;
     --Gray: #595959;
-    --Gray-light: #767676;
+    --Gray-light: #D9D9D9;
     --Gray-extra-light: #e0e0e0;
     --gray-dark: #272727;
     --primary-gradient-rev: linear-gradient(180deg, rgba(239, 228, 252, 0) 0%, #EFE4FC  100%);

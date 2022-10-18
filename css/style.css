@@ -21,34 +21,83 @@ color: var(--primary-dark);
     color: var(--primary);
     background-color: var(--primary-extra-light);
 }
-.maincontent{
+.logo{
+    height: 40px;
+}
+.mainContent{
     padding: 100px 0px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    height: 70vh;
+    background-image: url("../img/myPhoto.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+.cta a{
+    margin-right: 16px;
 }
 .projectsArea{
-    padding: 50px 0px;
+    padding: 200px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.projectsArea .card{
-    margin-top: 30px;
-}
 
-.projectCard {
-    height: 128px;
-    object-fit: contain;
-    padding: 20px;
-    background-color: var(--secondary-extra-light);
 }
-.projectsArea .card a{
-    display: block;
+.circle{
+    background-color: var(--Primary);
+    border-radius: 50%;
+    color: var(--Gray-light);
+    text-align: center;
+    padding: 25px;
+    width: 200px;
+    height: 200px;
+}
+.circle h3{
+    font-weight: 700;
+    font-size: 75px;
+}
+.circle h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+.projectImages{
+    padding: 20px;
 }
 footer{
     margin-top: 100px;
     padding: 30px;
     text-align: center;
     background: var(--Primary-gradient-rev);
+}
+
+/* background */
+.bgSecondary{
+    background-color: var(--Secondary);
+}
+.bgGrayLight{
+    background-color: var(--Gray-light);
+}
+.bgwhite{
+    background-color: white;
+}
+/* btn */
+.btn{
+    border-radius: 70px;
+    padding: 15px 25px;
+}
+.btn-primary{
+    background-color: var(--Primary);
+    border: none;
+}
+.btn-primary:hover{
+    background-color: var(--Primary-light);
+}
+.btn-secondary{
+    background-color: var(--Secondary);
+    border: none;
+}
+.btn-secondary:hover{
+    background-color: var(--Seconday-light);
 }
