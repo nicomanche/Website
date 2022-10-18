@@ -46,3 +46,9 @@ color: var(--primary-dark);
 .projectsArea .card a{
     display: block;
 }
+footer{
+    margin-top: 100px;
+    padding: 30px;
+    text-align: center;
+    background: var(--Primary-gradient-rev);
+}
